@@ -28,18 +28,17 @@ const  foods = [
     },
 
 ]
-
+console.log("Names")
 foods.forEach(
     (food) => console.log(food.Foodtype)
     )
 
-yum=foods.forEach(
-    (food) => console.log(Ingredient)
-    )
-console.log(yum)
+console.log("\nIngredients")
+    foods.forEach(food => {
+        food.Ingredients.forEach(ingredient => {
+            console.log(ingredient);
+        });
+    });
 
-foods.Ingredients.forEach(
-    (Ingredient) => console.log(Ingredient)
-    )
-
+console.log("\nOnly good Foods")
 console.log(foods.filter((food) => food.YumScale > 4))
