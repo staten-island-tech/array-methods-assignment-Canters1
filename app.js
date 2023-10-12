@@ -31,14 +31,14 @@ const  foods = [
 console.log("Names")
 foods.forEach(
     (food) => console.log(food.Foodtype)
-    )
+    );
 
 console.log("\nIngredients")
     foods.forEach(food => {
         food.Ingredients.forEach(ingredient => {
-            console.log(ingredient);
-        });
+            console.log(ingredient)
+        })
     });
 
 console.log("\nOnly good Foods")
-console.log(foods.filter((food) => food.YumScale > 4))
+console.log(foods.filter((food) => food.YumScale > 4));
