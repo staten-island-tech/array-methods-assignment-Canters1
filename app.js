@@ -10,7 +10,7 @@ const  foods = [
     {
         Foodtype: "Sushi",
         YumScale:  5,
-        Ingredients: ["Rice", "Seaweed", "Fish", ],
+        Ingredients: ["Rice", "Seaweed", "Fish", ], 
         Doghaseaten:false,
     },
 
